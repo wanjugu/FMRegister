@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/viewTrader_cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/user_profile_photo"
+            android:layout_width="120px"
+            android:layout_height="150px"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/avatar4devs"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/user_profile_photo"/>
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_toRightOf="@+id/tv_name"
+            android:textStyle="italic|bold"
+            android:textSize="18sp"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="Kennedy Wangu"/>
+
+
+        <TextView
+            android:id="@+id/tv_region"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regionview"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/txt_name"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/user_profile_photo"/>
+
+        <TextView
+            android:id="@+id/txt_region"
+            android:layout_toRightOf="@+id/tv_region"
+            android:textStyle="italic|bold"
+            android:textSize="18sp"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="Dodoma"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_association"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/districtview"
+            android:layout_toRightOf="@+id/user_profile_photo"
+            android:layout_below="@+id/tv_region"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_association"
+            android:layout_toRightOf="@+id/tv_association"
+            android:textStyle="italic|bold"
+            android:textSize="18sp"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="Burami"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tv_region"/>
+
+        <TextView
+            android:id="@+id/tv_mobileno"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobileview"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txt_association"
+            android:layout_toRightOf="@+id/user_profile_photo"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_mobileno"
+            android:layout_toRightOf="@+id/tv_mobileno"
+            android:textStyle="italic|bold"
+            android:textSize="18sp"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="+255621000999"
+            android:layout_below="@id/txt_association"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <Button
+            android:id="@+id/moreinfo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_mobileno"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/more"
+            android:clickable="false"
+            android:textSize="12sp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorwhite"
+            android:textStyle="bold"
+            />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_trader_nationalid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID::"/>
+        <TextView
+            android:id="@+id/txt_firstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fname"/>
+
+        <TextView
+            android:id="@+id/txt_lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lname"/>
+
+
+
+            <TextView
+                android:id="@+id/txt_othernames"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="othernames:"/>
+
+            <TextView
+                android:id="@+id/txt_DOB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="othernames:"/>
+
+            <TextView
+                android:id="@+id/txt_phonenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="phone:"/>
+
+            <TextView
+                android:id="@+id/txt_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:"/>
+
+            <TextView
+                android:id="@+id/txt_trader_regionID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/RID"/>
+
+            <TextView
+                android:id="@+id/txt_district"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DISTRICT:"/>
+
+            <TextView
+                android:id="@+id/txt_districtID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DID:"/>
+
+            <TextView
+                android:id="@+id/txt_wardname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ward:"/>
+
+            <TextView
+                android:id="@+id/txt_wardID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WID:"/>
+
+
+            <TextView
+                android:id="@+id/txt_village"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIllage:"/>
+
+        <TextView
+            android:id="@+id/txt_villageId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VID:"/>
+
+
+            <TextView
+                android:id="@+id/txt_moreLocationInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MoreLocInfo:"/>
+
+            <TextView
+                android:id="@+id/txt_bsnname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BSNName::"/>
+
+        <TextView
+            android:id="@+id/txt_telephone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tel::"/>
+
+            <TextView
+                android:id="@+id/txt_businesstype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BSNTYPE:"/>
+
+            <TextView
+                android:id="@+id/txt_businesstypeID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BTID:"/>
+
+
+
+            <TextView
+                android:id="@+id/txt_commodities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commodities:"/>
+
+            <TextView
+                android:id="@+id/txt_syncstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="syncstatus:"/>
+
+
+
+        </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
+
+
+

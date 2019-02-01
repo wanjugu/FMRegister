@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">FMR</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Login Form Resources-->
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Login Form Resources-->
+
+    <!--Farmers UI Design DEMOGRAPHICS-->
+    <string name="national_id">National ID</string>
+    <string name="firstname">FirstName</string>
+    <string name="surname">Surname</string>
+    <string name="othernames">Othernames</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dob">DOB</string>
+    <string name="phoneno">MobileNo</string>
+    <string name="phoneno2">PhoneNo</string>
+    <string name="phoneno3">TelNo:</string>
+    <string name="phoneno4">725222999</string>
+    <string name="err_national_id">Invalid National ID </string>
+    <string name="err_firstname">Invalid FirstName </string>
+    <string name="err_surname">Invalid Surname </string>
+    <string name="err_othernames">Invalid Othernames </string>
+    <string name="err_gender">Gender required</string>
+    <string name="err_dob">Invalid DOB</string>
+    <string name="err_phoneno">Invalid Phoneno</string>
+    <string name="err_bsnname">Invalid business name </string>
+
+
+    <!--Farmers UI Design REGION-->
+    <string name="region">Region</string>
+    <string name="district">District</string>
+    <string name="ward">Ward</string>
+    <string name="village">Village</string>
+    <string name="additional_loc_info">More-loc-info</string>
+    <string name="additional_location_info">More-location-info</string>
+    <string name="err_region">Region</string>
+    <string name="err_district">District</string>
+    <string name="err_ward">Ward</string>
+    <string name="err_village">Village</string>
+
+    <!--Farmers UI Design OTHER DETAILS-->
+    <string name="business_type">Business Type</string>
+    <string name="business_name">Business Name</string>
+    <string name="business_name_hint">enter business name</string>
+    <string name="association_membership">Association</string>
+    <string name="position">Position</string>
+    <string name="assoc_id">enter farmers association ID</string>
+    <string name="commodities">Commodities</string>
+    <string name="product">Product</string>
+    <string name="err_assoc">field required!</string>
+
+
+    <!--Association UI DESIGN DETAILS-->
+    <string name="association_id">association ID</string>
+    <string name="association_name">association name</string>
+    <string name="association_name2">Name</string>
+    <string name="association_reg_no">registration no</string>
+    <string name="association_reg_no2">RegNo.</string>
+    <string name="assoc_street">Street</string>
+
+
+    <!--Common string-->
+    <string name="next">Next</string>
+    <string name="btn_previous">Previous</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_save">Save</string>
+    <string name="assoc_postal_address">postal address</string>
+    <string name="assoc_zip_code">Zip Code</string>
+    <string name="gps_loc">GPS Location</string>
+
+    <!--Strings for tabbed layout-->
+    <string name="demo">Demographics</string>
+    <string name="demo_short">Demo</string>
+    <string name="assoc_details">Association Details 1</string>
+    <string name="assoc_details2">Association Details 2</string>
+    <string name="loc">Location</string>
+    <string name="other_details">OtherInfo</string>
+    <string name="farmer_reg">FARMER</string>
+    <string name="trader_reg">TRADER</string>
+    <string name="assoc_reg">ASSOCIATION</string>
+    <string name="review">Review</string>
+    <string name="street">Street</string>
+    <string name="postal_address">postalAddress</string>
+    <string name="zip">ZipCode</string>
+    <string name="err_password">password required!</string>
+    <string name="err_username">username required!</string>
+    <string name="error_valid_email_password">Wrong username or Password</string>
+    <string name="search">Search</string>
+    <string name="name">Name:</string>
+    <string name="ID">ID:</string>
+    <string name="regionview">Region:</string>
+    <string name="assoc">FO:</string>
+    <string name="more">More Info</string>
+    <string name="districtview">District:</string>
+    <string name="mobileview">Mobile:</string>
+    <string name="national_idView">ID:</string>
+    <string name="assoc_idView">AssocID:</string>
+    <string name="firstnameview">FirstName:</string>
+    <string name="surnameview">Surname:</string>
+    <string name="wardview">Ward:</string>
+    <string name="villageview">Village:</string>
+    <string name="business_typeview">BsnType:</string>
+    <string name="positionview">Position:</string>
+    <string name="genderview">Gender:</string>
+    <string name="assocView">Association:</string>
+    <string name="farmerdetailedview">Edit Farmer Info</string>
+    <string name="registeredfarmers">Registered Farmers</string>
+    <string name="RID">RID::</string>
+    <string name="telno">Telephone No.</string>
+    <string name="add_region_hint">enter region name</string>
+    <string name="cancel">cancel</string>
+    <string name="district_name_hint">enter district name</string>
+    <string name="enter_ward_hint">enter ward name</string>
+    <string name="enter_village_hint">enter village name</string>
+
+    <!--Phone country codes-->
+    <string-array name="ea_country_codes">
+        <item>+255</item>
+        <item>+256</item>
+        <item>+250</item>
+        <item>+254</item>
+    </string-array>
+
+
+</resources>

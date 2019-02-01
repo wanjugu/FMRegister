@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <item android:title="Register">
+        <menu>
+            <item
+                android:id="@+id/nav_farmers"
+                android:icon="@drawable/ic_menu_person_add"
+                android:title="Farmer" />
+            <item
+                android:id="@+id/nav_traders"
+                android:icon="@drawable/ic_menu_monetization_on"
+                android:title="Trader" />
+
+            <item
+                android:id="@+id/nav_fos"
+                android:icon="@drawable/ic_menu_supervisor_account"
+                android:title="Association" />
+        </menu>
+    </item>
+
+
+    <item android:title="Registered">
+        <menu>
+            <item
+                android:id="@+id/nav_view_farmers"
+                android:icon="@drawable/ic_menu_person_add"
+                android:title="View Farmers" />
+            <item
+                android:id="@+id/nav_view_traders"
+                android:icon="@drawable/ic_menu_monetization_on"
+                android:title="View Traders" />
+
+            <item
+                android:id="@+id/nav_view_fos"
+                android:icon="@drawable/ic_menu_supervisor_account"
+                android:title="View Associations" />
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_help"-->
+                <!--android:icon="@drawable/ic_menu_help"-->
+                <!--android:title="Help" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_about"-->
+                <!--android:icon="@drawable/ic_menu_info"-->
+                <!--android:title="About" />-->
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+    <!--<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Import" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Gallery" />
+    <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Slideshow" />
+    <item
+        android:id="@+id/nav_manage"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Tools" />
+</group>-->
+
+</menu>
